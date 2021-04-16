@@ -1,5 +1,6 @@
 import { useState } from "react";
 import dailySentences from "../dailySentences.json";
+import styles from './Main.module.css';
 
 function Main() {
   const [number, setNumber] = useState([0]);
@@ -13,11 +14,14 @@ function Main() {
 
   return (
     <div>
-      <author>{dailySentences[number].author}</author>
-      <img src={srcByName} alt="avatar" />
       <p>« {dailySentences[number].sentence} »</p>
-      <date>{dailySentences[number].date}</date>
+      <div>
+        <author>{dailySentences[number].author}</author>
+        <date>{dailySentences[number].date}</date>
+      </div>
+      <img src={srcByName} alt="avatar" />
       <button onClick={handleChangeSentence}>rire & bienveillance</button>
+      <footer className={styles.Copyright}>Copyright L&L (Laugh & Loose)</footer>
     </div>
   );
 }
