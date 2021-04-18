@@ -1,3 +1,62 @@
-.Copyright {
+.Main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.Avatar {
+  margin: auto;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.LaughButton {
+  margin: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(140, 153, 153);
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  outline-style: none;
+}
+
+.Speech {
+  background-color: #fff;
+  border-radius: 2rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.Credit {
+  display: flex;
+  justify-content: flex-end;
+}
+.Credit author {
   font-size: 0.8rem;
+  font-style: italic;
+  padding: 0 0.5rem;
+}
+
+.Credit date {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+
+.Sentence {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.Triangle {
+    margin: auto;
+    height : 0;
+    width : 0;
+    border-top : 35px solid #fff;
+    border-right : 15px solid transparent;
+    border-left : 15px solid transparent;
+   }
+
+.Copyright {
+  font-size: 0.68rem;
 }

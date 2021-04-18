@@ -1,6 +1,6 @@
 import { useState } from "react";
 import dailySentences from "../dailySentences.json";
-import styles from './Main.module.css';
+import styles from "./Main.module.css";
 
 function Main() {
   const [number, setNumber] = useState([0]);
@@ -10,18 +10,25 @@ function Main() {
   const srcByName = `./Photos/${
     dailySentences[number].author.charAt(0).toUpperCase() +
     dailySentences[number].author.substring(1).toLowerCase()
-  }.jpeg`;
+  }.png`;
 
   return (
-    <div>
-      <p>« {dailySentences[number].sentence} »</p>
-      <div>
-        <author>{dailySentences[number].author}</author>
-        <date>{dailySentences[number].date}</date>
+    <div className={styles.Main}>
+      <div className={styles.Speech}>
+        <p className={styles.Sentence}>{dailySentences[number].sentence}</p>
+        <div className={styles.Credit}>
+          <author>{dailySentences[number].author}</author>
+          <date>{dailySentences[number].date}</date>
+        </div>
       </div>
-      <img src={srcByName} alt="avatar" />
-      <button onClick={handleChangeSentence}>rire & bienveillance</button>
-      <footer className={styles.Copyright}>Copyright L&L (Laugh & Loose)</footer>
+      <div className={styles.Triangle}></div>
+      <img className={styles.Avatar} src={srcByName} alt="avatar" />
+      <button className={styles.LaughButton} onClick={handleChangeSentence}>
+        Rire & Bienveillance
+      </button>
+      <footer className={styles.Copyright}>
+        Copyright L&L (Laugh & Loose)
+      </footer>
     </div>
   );
 }
