@@ -24,7 +24,7 @@ function Main() {
       <div className={styles.Triangle}></div>
       <img className={styles.Avatar} src={srcByName} alt="avatar" />
       <button className={styles.LaughButton} onClick={handleChangeSentence}>
-        Rire & Bienveillance
+        Moquerie & Malveillance
       </button>
       <footer className={styles.Copyright}>
         Copyright L&L (Laugh & Loose)
