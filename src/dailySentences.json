@@ -91,13 +91,13 @@
     },
     {
         "author": "ANTHONY",
-    "sentence": "Quand je vois mes copains, c'est pour me musenter la gueule",
-    "date": "mars 2017"
+        "sentence": "Quand je vois mes copains, c'est pour me musenter la gueule",
+        "date": "mars 2017"
     },
     {
         "author": "ANTHONY",
-    "sentence": "La chemise et les lunelles",
-    "date": "mars 2017"
+        "sentence": "La chemise et les lunelles",
+        "date": "mars 2017"
     },
     {
         "author": "ANTHONY",
@@ -450,15 +450,23 @@
         "date": "juin 2017"
     },
     {
-        "author": "ANTHONY","sentence": "six cent vingt camètre (=624m)",
+        "author": "ANTHONY",
+        "sentence": "six cent vingt camètre (=624m)",
         "date": "juin 2017"
     },
     {
-        "author": "ANTHONY","sentence": "la prostate, ça fait chier",
+        "author": "ANTHONY",
+        "sentence": "la prostate, ça fait chier",
         "date": "mars 2025"
     },
     {
-        "author": "ANTHONY","sentence": "Bibu (Bubu)",
+        "author": "ANTHONY",
+        "sentence": "Bibu (Bubu)",
         "date": "mars 2025"
+    },
+    {
+        "author": "ELISE",
+        "sentence" : "Anthony, il a quasi tout boire",
+        "date": "décembre 2025"
     }
 ]
